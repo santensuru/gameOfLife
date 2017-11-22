@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <iostream>
+#include "worker.h"
+#include <QThread>
 
 namespace Ui {
 class MainWindow;

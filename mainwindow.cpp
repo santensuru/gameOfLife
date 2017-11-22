@@ -1,8 +1,5 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <iostream>
-#include "worker.h"
-#include <QThread>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
