@@ -4,6 +4,9 @@
 #include <QObject>
 #include <QThread>
 
+namespace gameOfLife
+{
+
 class Worker : public QObject {
     Q_OBJECT
 
@@ -28,5 +31,7 @@ private:
 
     void runGameOfLife();
 };
+
+}
 
 #endif // WORKER_H

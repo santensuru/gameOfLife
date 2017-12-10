@@ -47,7 +47,7 @@ void MainWindow::handleButton()
     ui->delay->setDisabled(true);
 
     QThread* thread = new QThread;
-    Worker* worker = new Worker();
+    gameOfLife::Worker* worker = new gameOfLife::Worker();
     worker->moveToThread(thread);
     connect(worker, SIGNAL(updateLabel(QString)), this, SLOT(updateLabel(QString)));
     connect(worker, SIGNAL(error(QString)), this, SLOT(errorString(QString)));

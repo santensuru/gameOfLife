@@ -1,6 +1,8 @@
 #include "worker.h"
 #include "world.h"
 
+using namespace gameOfLife;
+
 // --- CONSTRUCTOR ---
 Worker::Worker() {
     // you could copy data from constructor arguments to internal variables here.

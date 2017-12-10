@@ -1,5 +1,7 @@
 #include "cell.h"
 
+using namespace gameOfLife;
+
 Cell::Cell()
 {
 

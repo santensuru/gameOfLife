@@ -10,6 +10,9 @@
 #include <vector>
 #include <qstring.h>
 
+namespace gameOfLife
+{
+
 class World
 {
     //Cell _odds [WORLD_HEIGHT][WORLD_WIDTH];
@@ -37,5 +40,7 @@ public:
     void printStates(bool);
     QString printStatesToString(bool);
 };
+
+}
 
 #endif // WORLD_H

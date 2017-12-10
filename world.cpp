@@ -2,6 +2,8 @@
 #include <qapplication.h>
 #include <qdatetime.h>
 
+using namespace gameOfLife;
+
 World::World()
 {
 
